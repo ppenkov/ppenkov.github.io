@@ -1,0 +1,40 @@
+table {
+	border: 3px;
+	border-style: solid;
+	border-color: #ff8000;
+	border-collapse: separate;
+	border-radius: 10px;
+	width: 650px;
+	height: 250px;
+	margin: auto;
+	text-align: justify;
+	background: #ffcc80;
+	color: #4d2600;
+	font-family: 'Calibri';
+	font-size: 20px;
+}
+.trcolor {
+	font color: #4d2600;
+	font width: 5px;
+	font height: 5px;
+	margin: inherit;
+	font-weight: 20px;
+	margin-right: 320px;
+}
+.button1 {
+	border: 0.5px;
+	border-style: solid;
+	border-color: black;
+	margin-right: 135px;
+	background: #2eb82e;
+	color: white;
+	height: 30px;
+}
+.button2 {
+	border: 0.5px;
+	border-style: solid;
+	border-color: black;
+	background: #ff8c1a;
+	color: white;
+	height: 30px;
+}
