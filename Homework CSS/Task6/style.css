@@ -1,0 +1,40 @@
+table {
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin: auto;
+	text-align: left;
+	color: black;
+	font-family: 'Calibri';
+}
+.td1 {
+	background: #ccccb3;
+	font-size: 20px;
+	height: 30px;
+	font-weight: bold;
+}
+.tr1 {
+	background: #80ccff;
+	font-size: 20px;
+	height: 40px;
+	font-weight: bold;
+}
+.td2 {
+	width: 90px;
+}
+.td3 {
+	width: 250px;
+}
+.tr2 {
+	background: #adad85;
+}
+.tdcolor {
+background: #3366ff;
+}
+.tr3 {
+	background: #ccccb3;
+}
+.tr4 {
+	background: #004de6;
+	font-weight: bold;
+	text-align: right;
+}
