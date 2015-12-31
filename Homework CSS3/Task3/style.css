@@ -1,0 +1,17 @@
+.header {
+    font-style: bold;
+    text-shadow: 3px 3px 3px #b300b2;
+}
+
+.multiple-columns {
+	-webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 100px;
+    -moz-column-gap: 100px;
+    column-gap: 100px;
+
+    -webkit-column-rule: 5px solid #ff9900;
+    -moz-column-rule: 5px solid #ff9900;
+    column-rule: 5px solid #ff9900;
+}
