@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Francesco Totti</title>
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<style>
+		#totti-image {
+			display: inline-block;
+			padding: 2px;
+			width: 500px;
+			border: 1px solid #333;
+			margin-top: 400px;
+		}
+	</style>
+</head>
+<body>
+	<center>
+		<img id="totti-image" src="pics/Totti1.jpg" />
+	</center>
+	<script>
+		$(document).ready(function(){
+			$("#totti-image").hover(function(){
+				$(this).slideUp(2000);
+			});
+		});
+	</script>
+</body>
+</html>
