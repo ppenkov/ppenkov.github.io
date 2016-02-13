@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Slide Demos</title>
+	<script src='jquery.js'></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="slide"></div>
+	<script>
+		$(document).ready(function(){
+			$('.slide').hover(function(){
+				$('.slide').slideToggle(3000);
+			});
+		});
+	</script>
+</body>
+</html>

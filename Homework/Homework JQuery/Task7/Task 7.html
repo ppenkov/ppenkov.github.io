@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Slide Demos</title>
+	<script src='jquery.js'></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="slide"></div>
+	<script>
+		$(document).ready(function(){
+			$('div').addClass('crop');
+			$('.slide').hover(function(){
+				$('div').hide();
+				$('div').removeClass('crop');
+				$('.slide').slideDown(3000);
+				$(this).unbind('mouseenter mouseleave')
+			});
+		});
+	</script>
+</body>
+</html>
