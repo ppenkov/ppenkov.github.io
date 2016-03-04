@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Exam Task</title>
+
+	<script src="http://code.jquery.com/jquery-2.2.0.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<div class="container">
+		<form class="form-horizontal" method="POST" action="success.php" enctype="multipart/form-data">
+			<div class="form-group">
+				<h1 class="custom">PERSONAL DATA FORM</h1>
+			</div>
+			<div class="form-group">
+				<label for="firstName">First Name</label>
+				<input type="text" class="form-control" id="firstName" placeholder="First Name">
+			</div>
+			<div class="form-group">
+				<label for="lastName">Last Name</label>
+				<input type="text" class="form-control" id="lastName" placeholder="Last Name">
+			</div>
+			<div class="form-group">
+				<label for="age">Age</label>
+				<input type="number" class="form-control" id="age" min="0" max="100" placeholder="Age">
+			</div>
+			<div class="form-group">
+				<label>Gender</label>
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" id="check1"> Male 
+					</label>
+					<label>
+						<input type="checkbox" id="check2"> Female 
+					</label>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="residence">Residence</label>
+				<input type="text" class="form-control" id="residence" placeholder="Residence">
+			</div>
+			<div class="form-group container">
+				<div class="radio">
+					<input type="radio" name="blankRadio" id="single" value="option1" aria-label="...">
+					<label for="single">Single</label>
+				</div>
+			</div>
+			<div class="form-group container">
+				<div class="radio">
+					<input type="radio" name="blankRadio" id="married" value="option1" aria-label="...">
+					<label for="married">Married</label>
+				</div>
+			</div>
+			<div class="form-group">
+			<input type="button" class="btn btn-default register" id="submit" onClick="parent.location='success.php'" value="Submit">
+			</div>
+		</form>
+	</div>
+</body>
+</html>
