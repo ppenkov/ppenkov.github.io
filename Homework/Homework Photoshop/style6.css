@@ -3,14 +3,13 @@ header {
 	height: 80px;
 	width: 200px;
 	margin-top: 50px;
-	margin-left: 200px;
 }
 
 .title {
 	color: #666699;
 	position: absolute;
 	top: 58px;
-	left: 1053px;
+	left: 300px;
 	font-size: 13px;
 	letter-spacing: 2px;
 	text-shadow: 0 0 3px;
@@ -24,7 +23,7 @@ header {
 
 .logo-position {
 	position: absolute;
-	left: 1424px;
+	left: 1022px;
 	width: 225px;
 	height: 80px;
 	background: #e5eeff;
@@ -33,8 +32,7 @@ header {
 footer {
 	background-image: url('Task6/background.png');
 	color: white;
-	margin-left: 200px;
-	width: 1400px;
+	width: 12s00px;
 	padding: 20px;
 	font-size: 16px;
 	font-weight: bold;
@@ -43,7 +41,6 @@ footer {
 
 .leftSidebar {
 	float: left;
-	margin-left: 170px;
 }
 
 .topic {
@@ -51,7 +48,6 @@ footer {
 	font-size: 26px;
 	font-weight: bold;
 	margin-top: 10px;
-	margin-left: 40px;
 }
 
 ul {
@@ -74,7 +70,7 @@ li a {
 .rightSidebar {
 	border: 3px solid #f2e5ff;
 	position: fixed;
-	left: 1306px;
+	left: 905px;
 	width: 336px;
 	height: 552px;
 }
@@ -166,34 +162,30 @@ p {
 	width: 855px;
 	height: 474px;
 	padding: 20px;
-	margin-left: 400px;
 }
 
 .picture {
 	float: left;
 	border: 2px solid black;
 	width: 350px;
-	margin-left: -520px;
+	margin-top: 50px;
 }
 
 .headline {
 	color: #cc0099;
 	margin-top: 100px;
-	margin-left: 365px;
 }
 
 .date {
 	color: #5900b3;
 	font-size: 16px;
 	margin-top: -10px;
-	margin-left: 365px;
 }
 
 .intro {
 	color: #5900b3;
 	font-size: 17px;
 	font-weight: bold;
-	margin-left: 365px;
 }
 
 .content-li {
