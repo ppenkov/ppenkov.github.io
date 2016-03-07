@@ -1,24 +1,43 @@
 html {
-	background-image: url('images/Background2.png');
+	background-image: url('images/Background.png');
 }
 
 header {
 	border-radius: 25px;
 	border-bottom-left-radius: 0px;
 	border-bottom-right-radius: 0px;
-	color: white;
+	color: #d6d6c2;
 	padding: 35px;
 	font-size: 70px;
 	font-weight: bold;
 	font-style: italic;
-	font-family: 'Arial';
+	font-family: 'Charcoal';
 	text-align: center;
 }
 
 .main {
-	background-image: url('images/fire6.jpg'); 
+	background-image: url('images/Thunder.jpg'); 
 	border-radius: 30px;
 	width: 800px;
 	height: 75px;
 	margin: auto;
+}
+
+.center {
+	margin-top: 100px;
+	margin-left: 400px;
+}
+
+.button1 {
+	margin-right: 400px;
+	background: #d6d6c2;
+	color: black;
+	font-size: 30px;
+	font-family: 'Comic Sans MS';
+}
+.button2 {
+	background: #d6d6c2;
+	color: black;
+	font-size: 30px;
+	font-family: 'Comic Sans MS';
 }
